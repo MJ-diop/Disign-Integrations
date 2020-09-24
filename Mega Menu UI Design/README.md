@@ -1,4 +1,4 @@
-[Live Demo](mega_menu_ui_disign.netlify.com)
+[Live Demo](mega-menu-ui-disign.netlify.com)
 
 # Mega Menu UI Design
 
