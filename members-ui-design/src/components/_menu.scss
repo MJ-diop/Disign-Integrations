@@ -1,0 +1,68 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 215px;
+  line-height: 3rem;
+  margin-left: 1.5rem;
+  letter-spacing: 1px;
+  color: #0d1e5c;
+  background: #fff;
+  cursor: pointer;
+
+  .blur {
+    position: relative;
+    left: -75px;
+    top: -27px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #2f80ed;
+    filter: blur(8px);
+  }
+
+  .close_icon {
+    position: absolute;
+    left: 210px;
+    top: 7px;
+    cursor: pointer;
+    color: rgba(132, 149, 209, 0.4);
+  }
+
+  .menus_items {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.9rem;
+
+    a {
+      text-decoration: none;
+      color: #0d1e5c;
+      font-size: 12px;
+      font-weight: 100;
+      font-style: normal;
+    }
+  }
+
+  svg {
+    margin-right: 0.7rem;
+    margin-bottom: -0.1rem;
+  }
+
+  .active {
+    font-size: xx-large;
+    position: relative;
+    top: -2px;
+    left: 164px;
+    color: red;
+  }
+
+  .menus:nth-child(5) {
+    background: #152766;
+    border-radius: 5px;
+    color: #fff;
+    padding: 0 13px;
+    margin-left: -12px;
+  }
+}
