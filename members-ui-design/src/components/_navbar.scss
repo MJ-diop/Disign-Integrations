@@ -10,6 +10,7 @@ nav {
   color: #152766;
   margin-top: 0.7rem;
   margin-left: 16rem;
+  margin-right: -15rem;
 
   svg {
     margin-right: 0.3rem;
@@ -37,6 +38,10 @@ nav {
       outline: none;
       padding: 0.4rem 2rem;
       font-size: 1rem;
+    }
+
+    ::placeholder {
+      color: #505d8c;
     }
   }
 
@@ -76,10 +81,9 @@ nav {
   }
 }
 
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 700px) {
   input,
   form:nth-child(2) {
-    // width: 7rem !important;
     display: none;
   }
 }

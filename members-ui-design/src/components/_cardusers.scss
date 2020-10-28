@@ -1,8 +1,7 @@
 .cards {
   display: grid;
-  grid-template-columns: 200px 200px 200px 200px 200px;
-  column-gap: 17px;
-  grid-template-rows: 53%;
+  grid-template-columns: repeat(auto-fill, 200px);
+  grid-gap: 17px;
 
   .card_users {
     width: 170px;
@@ -42,6 +41,7 @@
       color: #152766;
       padding: 4px 6px;
       margin-bottom: 0.9rem;
+      cursor: pointer;
     }
 
     .board_tasks {
@@ -82,22 +82,8 @@
   }
 }
 
-@media screen and (max-width: 815px) {
-  .cards {
-    display: grid;
-    grid-template-columns: 200px 200px !important;
-    grid-template-rows: 25% !important;
-    row-gap: 10px !important;
-  }
-}
-
-@media (max-width: 968px) {
-  body {
-    overflow-x: scroll;
-  }
-  .cards {
-    grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 33%;
-    row-gap: 10px;
+@media screen and (max-width: 430px) {
+  .card_users {
+    width: 230px !important;
   }
 }
